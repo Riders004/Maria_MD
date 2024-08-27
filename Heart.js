@@ -412,7 +412,7 @@ Maria.sendMessage(from, {text:`\`\`\`「 Link Detected 」\`\`\`\n\n@${m.sender.
 } else {
 }
 
-
+/**
  const verification = async () => {
   try {
     const group = await Maria.groupMetadata('120363029833092005@g.us');
@@ -436,6 +436,7 @@ m.reply(`⛩️ *❯─「 Maria-MD 」─❮* ⛩️\n
 🎀Join our support group to interact with MARIA-MD \n🔗Link:-\nhttps://chat.whatsapp.com/FGPKxVnjgJ7KnBGiDeb4ij`);
 return;
 }
+	 */
 
 //============= [LIST RESPONCE CHECKING START ]================
         if(m.mtype === "interactiveResponseMessage"){
