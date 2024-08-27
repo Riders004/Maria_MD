@@ -494,7 +494,6 @@ if (global.groupOnly && !m.isGroup && !isCreator) {
 
 	    // Mention Audio Code
 	    let ownernumber = global.ownernumber;
-	    let botNumber = Maria.decodeJid(Maria.user.id);
 	    let prefixi = global.prefa
 	    await mentiono(Maria, m, ownernumber, botNumber, null, global.prefa) => {
 
